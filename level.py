@@ -128,7 +128,7 @@ class Level:
                 pass
             self.time=0
             self.obelisks.add(ob)
-        print(len(self.obelisks3))
+        # print(len(self.obelisks3))
 
         for obelisk in self.obelisks:
             if obelisk.rect.x<-135:
